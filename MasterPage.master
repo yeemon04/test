@@ -1,0 +1,126 @@
+<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body style="background-color: #0066CC" >
+    <form id="form1" runat="server">
+    <div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div style="z-index: 104; left: 11px; width: 1292px; position: absolute; top: 6px;
+            height: 129px">
+            <asp:Image ID="Image1" runat="server" Height="132px" ImageUrl="~/vb image/about us/National Health Service.jpg" Width="285px" />
+            <div id="DIV1" style="z-index: 101; left: 281px; width: 652px; position: absolute;
+                top: 0px; height: 148px">
+                <div style="z-index: 101; left: 717px; width: 297px; position: absolute; top: 1px;
+                    height: 133px">
+                    <asp:Image ID="Image3" runat="server" Height="131px" ImageUrl="~/vb image/about us/National Health Service.jpg"
+                        Width="302px" /></div>
+                <asp:Image ID="Image2" runat="server" Height="133px" ImageUrl="~/vb image/about us/master.jpg"
+                    Width="720px"/><marquee style="width: 717px;" ><div style = "font-size:large "> DatDoc Group National 
+Health Service</div> </marquee></div>
+        </div>
+          <br />
+                        <br />
+                        <br />
+                        <br />
+                     
+            <table style="width: 1300px; height: 313px">
+                <tr>
+                    <td rowspan="3" style="width: 142px">
+                        <br />
+                           <br />
+        <asp:HyperLink ID="hplAboutUs" runat="server" NavigateUrl="~/Aboutus.aspx" ForeColor="#000000" Width="198px" Font-Size="Large">About Us</asp:HyperLink><br />
+                        <br />
+                           <br />
+                        <asp:HyperLink ID="hplContactUs" runat="server" ForeColor="#000000"
+                            NavigateUrl="~/ContactUs.aspx" Width="198px" Font-Size="Large">Contact Us</asp:HyperLink><br />
+                        <br />
+                           <br />
+                        <asp:HyperLink ID="hplDoctorInformation" runat="server" ForeColor="#000000"
+                            NavigateUrl="~/DoctorInfomationPage.aspx" Width="199px" Font-Size="Large">Doctor Information</asp:HyperLink><br />
+                        <br />
+                           <br />
+                        <asp:HyperLink ID="hplHowtodoAppointment" runat="server" ForeColor="#000000"
+                            NavigateUrl="~/HowToDoAppointment.aspx" Width="201px" Font-Size="Large">How To Do Appointment</asp:HyperLink><br />
+                        <br />
+                           <br />
+                        <asp:HyperLink ID="hlpHelp" runat="server" ForeColor="#000000" NavigateUrl="~/Help.aspx"
+                            Width="201px" Font-Size="Large">Help</asp:HyperLink><br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </td>
+                    <td rowspan="3" style="width: 785px">
+                        <div style="z-index: 101; left: 221px; width: 785px; position: absolute; top: 171px;
+                            height: 703px">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </asp:contentplaceholder>
+                            &nbsp;</div>
+                    </td>
+                    <td colspan="2" rowspan="3">
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+            </table>
+                        <br />
+                        <br />
+        </div>
+    </form>
+</body>
+</html>
